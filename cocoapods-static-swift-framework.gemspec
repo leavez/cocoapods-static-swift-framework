@@ -6,11 +6,11 @@ require 'cocoapods-static-swift-framework/gem_version.rb'
 Gem::Specification.new do |spec|
   spec.name          = 'cocoapods-static-swift-framework'
   spec.version       = CocoapodsStaticSwiftFramework::VERSION
-  spec.authors       = ['GaoJi']
-  spec.email         = ['gaoji@mobike.com']
-  spec.description   = %q{A short description of cocoapods-static-swift-framework.}
-  spec.summary       = %q{A longer description of cocoapods-static-swift-framework.}
-  spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-static-swift-framework'
+  spec.authors       = ['leavez']
+  spec.email         = ['gaojiji@gmail.com']
+  spec.description   = %q{use static framework for Swift}
+  spec.summary       = %q{use static framework for Swift for cocoapods when use_frameworks!}
+  spec.homepage      = 'https://github.com/leavez/cocoapods-static-swift-framework'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
