@@ -1,5 +1,5 @@
 module Pod
-    class Target
+    class PodTarget
         def static_framework?
             return true
         end
