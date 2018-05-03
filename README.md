@@ -38,7 +38,7 @@ I haven't seen any word about static framework in the official documents. There 
 The binary in the framework will be linked statically, as its name, to the main binary. There's no framework file in the `Framework` folder of the app bundle. Resources will copied to app bundle's root path. So there's a potential bug of conflict of resource file names.
 
 
-#### requirement
+## requirement
 
 - Xcode 9
 - cocoapods 1.5
