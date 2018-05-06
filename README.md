@@ -46,4 +46,4 @@ The binary in the framework will be linked statically, as its name, to the main 
 ## License
 MIT
 
-Appreciate a 🌟 if you like it.  Another cocoapods plugin made by me [cocoapod-developing-folder](https://github.com/leavez/cocoapods-developing-folder)
+Appreciate a 🌟 if you like it.  Another cocoapods plugin made by me to improve pod compile time: [cocoapods-binary](https://github.com/leavez/cocoapods-binary)
