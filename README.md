@@ -17,7 +17,6 @@ Add the following to your podfile:
 
 ```ruby
 plugin 'cocoapods-static-swift-framework'
-all_static!
 
 ```
 
