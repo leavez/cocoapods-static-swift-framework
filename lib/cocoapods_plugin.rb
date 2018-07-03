@@ -1,1 +1,1 @@
-require 'cocoapods-static-swift-framework/command'
+require 'cocoapods-static-swift-framework/main'
