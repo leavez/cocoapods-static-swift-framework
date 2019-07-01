@@ -22,6 +22,8 @@ plugin 'cocoapods-static-swift-framework'
 
 NOTE: Static frameworks is still using framework, not static library. So don't forget to add `use_frameworks!`
 
+NOTE: From cocoapods 1.7, the generated resource bundle specified with `s.resource_bundle` in podspec, will not be copied to the .framework folder. It's a default behavior of cocoapods.
+
 ## About Static framework
 
 ### Why
