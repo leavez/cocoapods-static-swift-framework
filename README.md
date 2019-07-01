@@ -30,17 +30,19 @@ Too many dynamic frameworks will increase app boot time dramatically, also the `
 
 ### What is a static framework
 
-First of all, what is a framework? Framework is just a bundle with specifications to organize files, for whom xcode provides convenient methods to link / copy resources. 
+First of all, what is a framework? Framework is just a bundle with specifications to organize files, for whom xcode provides convenient methods to link bianry and copy resources. 
 
-I haven't seen any word about static framework in the official documents. There is only (dynamic) framework. So xcode cannot handle it well like dynamic framework. Resources in the framework can't be copied to app's main bundle automatically. If you use cocoapods, it will handle it automatically, but not for the manual integration.
+Static framework, or precisely static-linking framework, has no official defination. There's only (dynamic) framework. "When linking, it found that the binary in the framework is static-linking, then it will link the binary staticaly. There's no special handling." an Apple engineer answered me at WWDC. 
+
+Resources in static framework can't be copied to app's main bundle automatically. If you use cocoapods, it will handle it automatically, but not for the manual integration.
 
 The binary in the framework will be linked statically, as its name, to the main binary. There's no framework file in the `Framework` folder of the app bundle. Resources will copied to app bundle's root path. So there's a potential bug of conflict of resource file names.
 
 
 ## requirement
 
-- Xcode 9
-- cocoapods 1.5
+- Xcode 9+
+- cocoapods 1.5+ (v1.7 tested)
 
 ## License
 MIT
