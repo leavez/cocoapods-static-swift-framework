@@ -1,8 +1,9 @@
 module Pod
-    class PodTarget
-        def static_framework?
-            return true
+    class Target
+        class BuildType
+            def linkage
+                :static
+            end
         end
     end
 end
-
