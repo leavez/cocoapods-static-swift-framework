@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     cocoapods-static-swift-framework (0.4)
-      cocoapods (>= 1.5.0.beta.1, < 2.0)
+      cocoapods (>= 1.5.0, < 2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -69,7 +69,7 @@ GEM
     netrc (0.11.0)
     prettybacon (0.0.2)
       bacon (~> 1.2)
-    rake (12.3.1)
+    rake (13.0.1)
     ruby-macho (1.2.0)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
